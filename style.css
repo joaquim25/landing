@@ -1,0 +1,91 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    color: rgb(50, 50, 50)
+}
+
+p{
+    color: #323232
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("images/background.jpg");
+    padding: 80px 0;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner h1{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.banner p{
+    color: white;
+    font-size: 24px;
+}
+
+.botao{
+    background-color: #1A48E3;
+    color: white;
+    padding: 16px 48px;
+    display: inline-block;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.botao:hover{
+    background-color: #0D1EC6;
+}
+
+.container{
+    width: 850px;
+    margin: 50px auto;
+}
+
+.cartoes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartao{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 24px;
+    margin: 8px;
+}
+
+.cartao img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.cartao h3{
+    color: #003399
+}
+
+.cartao:hover{
+    transform: scale(1.04)
+}
+
+.footer{
+    background-color: blue;
+    text-align: center;
+    padding: 16px 0;
+}
+
+.footer p{
+    color: white;
+}
